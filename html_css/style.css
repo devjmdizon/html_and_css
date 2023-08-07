@@ -1,43 +1,106 @@
-body {
+/*body {
   background-color: rgb(180, 183, 202);
-  
-}
-body
+}*/
 
-.top {
+/*.top {
   border-color: black;
-  margin: 20px 20px 20px 20px; /*In order top, right, bottom, left*/
+  margin: 20px 20px 20px 20px; In order top, right, bottom, left
   position: relative;
   top: 0px;
   text-align: center;
   background: rgb(163, 154, 204);
   text
-}
+}*/
 
-.lside {
+/*.lside {
   border: 2px solid black;
-  margin: 20px 20px 20px 0px; /*In order top, right, bottom, left*/
+  margin: 20px 20px 20px 0px; In order top, right, bottom, left
   position: fixed;
   top: 150px;
   left: 20px;
   margin: 0 auto;
   background: rgb(163, 154, 204);
-}
-.rside {
+}*/
+
+/*.rside {
   border-color: black;
-  margin: 20px 20px 20px 0px; /*In order top, right, bottom, left*/
+  margin: 20px 20px 20px 0px; /*In order top, right, bottom, left
   position: fixed;
   top: 150px;
   right: 20px;
   margin: 0 auto;
   background: rgb(163, 154, 204);
-}
+}*/
+/*
 #center {
   margin: 0 auto;
   width: 100px;
   height: 30px;
   background: rgb(163, 154, 204);
-}
+}*/
+
 /*.hover-me:hover {
   background-color: green;
 }*/
+
+.search_logo {
+  margin-top: 100px;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.search-input {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 24px;
+  padding: 10px 30px 10px 30px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+}
+
+#btn {
+  margin: 20px 4px;
+  background-color: #dfe1e5;
+  border: 1px solid #dfe1e5;
+  border-radius: 3px;
+  padding: 5px 10px 5px 10px;
+  font-size: 14px;
+}
+
+.privacy_data {
+  display: none;
+}
+
+#twitter-button {
+  border: 2px solid #cfd9de;
+  background: white;
+  font-weight: bold;
+  color: #0f1419;
+  border-radius: 20px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.item {
+  text-align: center;
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+}
+.nav-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.back-btn {
+  display: none;
+}
